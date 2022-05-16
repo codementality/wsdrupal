@@ -1,0 +1,24 @@
+{# Include this template inside the page.html.twig in drupal. #}
+
+{% block header %}
+  {% include '@organisms/header/header.twig' with {
+    menu: primary_menu,
+    has_spacer: header_has_spacer,
+    variant: "sticky",
+    language_select: language_select
+  } only%}
+{% endblock header %}
+
+{{ highlighted }}
+
+<main class="main-content flex-1">
+  {% block main %}
+    <p>Main content</p>
+  {% endblock %}
+</main>
+
+{% block footer %}
+  {% include "@organisms/footer/footer.twig" with {
+    footer_menu: footer_menu,
+  } only %}
+{% endblock footer %}
