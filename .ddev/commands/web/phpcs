@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+## Description: Executes phpcs
+## Usage: phpcs [command] [options] [arguments]
+
+./vendor/bin/phpcs "$@"

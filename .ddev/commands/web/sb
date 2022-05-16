@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+## Description: Starts Storybook in interactive dev mode
+## Usage: sb [command] [options] [arguments]
+## Example: "ddev sb" start storybook in dev mode
+
+cd /var/www/html/web/themes/custom/wingsuit
+yarn dev:storybook:ddev

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+## Description: Checks static analysis
+## Usage: static-analysis
+## Example: "ddev static-analysis"
+
+composer run static-analysis

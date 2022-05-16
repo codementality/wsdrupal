@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+## Description: Executes wingsuit commands
+## Usage: ws [command] [options] [arguments]
+## Example: "ddev ws generate-component" generate a wingsuit component
+
+cd /var/www/html/web/themes/custom/wingsuit
+yarn ws "$@"

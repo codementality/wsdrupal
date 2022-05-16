@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+## Description: Build Storybook
+## Usage: storybook [arguments]
+## Example: "ddev storybook build" or "ddev storybook dev"
+
+op="${1:-build}"
+
+echo -e "\n\e[1;36m Installing Drupal Theme Dependencies.\e[0m"
+cd /var/www/html/web/themes/custom/wingsuit
+yarn install
+
+if [ "$op" = "build" ]; then
+  echo -e "\n\e[1;36m Building Storybook\e[0m"
+  yarn build:storybook
+fi
+
+if [ "$op" = "dev" ]; then
+  echo -e "\n\e[1;36m Launching Storybook\e[0m"
+  yarn dev:storybook:ddev
+fi

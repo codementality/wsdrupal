@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+## Description: Build Drupal
+## Usage: drupal:theme [arguments]
+## Example: "ddev drupal:theme build" or "ddev drupal:theme dev"
+
+op="${1:-build}"
+
+echo -e "\n\033[1;36m Installing Drupal Theme Dependencies.\033[0m"
+cd web/themes/custom/wstheme/
+yarn install
+
+if [ "$op" = "build" ]; then
+  echo -e "\n\033[1;36m Building Drupal Theme\033[0m"
+  rm -r dist/app-*
+  yarn build:drupal
+  echo -e "\n\033[1;36m Clearing Cache\033[0m"
+  drush cr
+fi
+
+if [ "$op" = "dev" ]; then
+  echo -e "\n\033[1;36m Launching Drupal Theme Dev\033[0m"
+  yarn dev:drupal
+fi
