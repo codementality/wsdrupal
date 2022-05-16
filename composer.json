@@ -49,6 +49,8 @@
         "drupal/core-dev": "^9.3",
         "drupal/cypress": "^2.3",
         "drupal/devel": "^4.1",
+        "drupal/devel_kint_extras": "^1.0",
+        "drupal/twig_vardumper": "^3.0",
         "mglaman/phpstan-drupal": "^1.1",
         "phpcompatibility/php-compatibility": "^9.3",
         "phpstan/extension-installer": "^1.1",
