@@ -2,13 +2,14 @@
 core:
   css:
     theme:
+      css/_drupal-styles.css:
+        preprocess: true
       ws-assets://tokens.css:
         preprocess: true
-      ws-assets://image.css:
+      ws-assets://table.css:
         preprocess: true
-      ws-assets://menu-primary.css:
+      ws-assets://forms.css:
         preprocess: true
-
   js:
     ws-assets://vendors/alpine.js:
       preprocess: true

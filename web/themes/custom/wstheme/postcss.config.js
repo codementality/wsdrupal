@@ -1,5 +1,5 @@
 const tailwind = require('tailwindcss');
-const nested = require('tailwindcss/nesting');
+const nested = require('postcss-nested');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {

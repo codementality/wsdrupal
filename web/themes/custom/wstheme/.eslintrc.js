@@ -52,6 +52,16 @@ module.exports = {
     'no-console': [0], // turned off for now while we are console.logging everywhere.
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'import/prefer-default-export': [0],
+    'no-param-reassign': [0],
+    'no-return-assign': [0],
+    'prefer-destructuring': [0],
+    'no-empty': [0],
+    'class-methods-use-this': [0],
+    'no-restricted-syntax': [0],
+    'no-new': [0],
+    'no-plusplus': [0],
+    'no-nested-ternary': [0],
+    'no-continue': [0],
   },
   settings: {
     react: {
