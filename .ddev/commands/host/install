@@ -14,7 +14,9 @@ ddev composer install --apcu-autoloader
 echo -e "\n\033[1;36m Installing and building Wingsuit theme.\033[0m"
 ddev drupal:theme
 
-ddev drush deploy
+ddev drush -y si --existing-config
+
+ddev drush -y deploy
 
 echo -e "\n\033[1;36m Enabling development modules and configuration.\033[0m"
 ddev drush -y en twig_vardumper devel_kint_extras
