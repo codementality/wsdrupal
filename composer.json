@@ -19,29 +19,36 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/coi": "^3.0",
         "drupal/component_blocks": "^1.2",
+        "drupal/components": "^2.4",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/ctools": "^3.7",
         "drupal/diff": "^1.0",
         "drupal/drimage": "^2.0",
+        "drupal/gin": "^3@beta",
+        "drupal/gin_lb": "^1@beta",
+        "drupal/gin_login": "^1.2",
+        "drupal/gin_toolbar": "^1@beta",
         "drupal/layout_builder_browser": "^1.4",
         "drupal/layout_builder_component_attributes": "^2.0",
         "drupal/layout_builder_modal": "^1.1",
         "drupal/layout_builder_operation_link": "^1.0",
         "drupal/layout_builder_restrictions": "^2.13",
         "drupal/layout_builder_st": "^1@alpha",
+        "drupal/link_attributes": "^1.11",
         "drupal/linkit": "^6@beta",
         "drupal/media_library_form_element": "^2.0",
         "drupal/pathauto": "^1.10",
         "drupal/rabbit_hole": "^1@beta",
         "drupal/section_library_reusable": "^1@beta",
+        "drupal/symfony_mailer": "^1@alpha",
+        "drupal/tailwindcss": "^5@alpha",
         "drupal/twig_tweak": "^3.1",
         "drupal/ui_patterns_extends": "^1@beta",
         "drupal/ui_patterns_field_formatters": "^1.7",
         "drupal/ui_patterns_layout_builder": "^1.1",
-        "drupal/ui_patterns_settings": "^2@alpha",
+        "drupal/ui_patterns_layouts": "^1.2",
         "drupal/ui_patterns_views_style": "^1.1",
-        "drupal/wingsuit_companion": "^1.0",
         "oomphinc/composer-installers-extender": "^2.0"
     },
     "require-dev": {
@@ -152,6 +159,9 @@
             "drupal/drimage": {
                 "#3168344: Stage file proxy": "https://git.drupalcode.org/project/drimage/-/merge_requests/1.patch",
                 "#3079190: embeds in wysiwyg not displaying media": "https://www.drupal.org/files/issues/2020-09-06/3079190-8--show_img_in_media_embed.patch?X"
+            },
+            "drupal/gin_toolbar": {
+                "#3121440: Add option for node local tasks in toolbar.": "https://www.drupal.org/files/issues/2022-02-11/3263805-41.patch"
             },
             "drupal/layout_builder_st": {
                 "#3069964: Argument 1 passed to Drupal\\layout_builder_st\\EventSubscriber\\ComponentPluginTranslate::isTranslation() must implement interface Drupal\\layout_builder\\SectionStorageInterface, null given": "https://www.drupal.org/files/issues/2019-07-24/isTranslation-null-given.patch",

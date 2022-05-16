@@ -1,4 +1,0 @@
-/**
- * section
- */
-import 'organisms/grid';

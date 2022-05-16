@@ -11,8 +11,8 @@ set -e
 echo -e "\n\033[1;36m Installing Drupal Dependencies.\033[0m"
 ddev composer install --apcu-autoloader
 
-echo -e "\n\033[1;36m Installing and building Wingsuit theme.\033[0m"
-ddev drupal:theme
+#echo -e "\n\033[1;36m Installing and building Wingsuit theme.\033[0m"
+#ddev drupal:theme
 
 ddev drush -y si --existing-config
 
