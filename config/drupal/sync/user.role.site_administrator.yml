@@ -1,0 +1,9 @@
+uuid: ff8b83ef-3a95-46fa-b075-9cafd4c14a58
+langcode: en
+status: true
+dependencies: {  }
+id: site_administrator
+label: 'Site Administrator'
+weight: -7
+is_admin: true
+permissions: {  }
