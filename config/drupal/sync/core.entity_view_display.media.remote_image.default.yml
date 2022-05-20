@@ -1,0 +1,25 @@
+uuid: f5d150e4-4f6a-4c8e-86d4-be66f8703297
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.remote_image.field_media_media_remote
+    - media.type.remote_image
+id: media.remote_image.default
+targetEntityType: media
+bundle: remote_image
+mode: default
+content:
+  field_media_media_remote:
+    type: string
+    label: visually_hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

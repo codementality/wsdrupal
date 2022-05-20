@@ -1,0 +1,13 @@
+uuid: ad4f7db5-9051-48d0-af0a-a00f56b89c8c
+langcode: en
+status: true
+dependencies: {  }
+id: media_image
+label: 'Media Image'
+description: 'Uploaded image, with name and alt text.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

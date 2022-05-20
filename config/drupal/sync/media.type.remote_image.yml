@@ -1,0 +1,15 @@
+uuid: d73fa42c-e661-48bb-879a-eee9d17f7a55
+langcode: en
+status: true
+dependencies:
+  module:
+    - media_remote
+id: remote_image
+label: 'Remote Image'
+description: 'Image hosted remotely, or available via a CDN.'
+source: media_remote
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_media_remote
+field_map: {  }
