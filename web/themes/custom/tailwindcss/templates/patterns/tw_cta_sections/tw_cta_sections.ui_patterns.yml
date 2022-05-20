@@ -1,0 +1,320 @@
+brand_panel_with_image:
+  label: Brand Panel with Image
+  description: Display a branded CTA Panel with a Screenshot
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Ready to dive in?<br/>Start your free trial today.
+    subtext:
+      type: text
+      label:  Subtext
+      description:  CTA Subtext
+      preview:  Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    cta_image_url:
+      type: text
+      label: Image URL
+      description:  CTA Image URL
+      preview:  https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg
+    cta_image_alt:
+      type: text
+      label: Image Alt Text
+      description: CTA Image Alt Text
+      preview:  App screenshot
+
+simple_center_branded:
+  label: Simple center branded
+  description: Display a simple branded CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Boost your productivity?<br/>Start using Workflow today.
+    subtext:
+      type: text
+      label:  Subtext
+      description:  CTA Subtext
+      preview:  Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+
+simple_centered:
+  label: Simple centered
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Boost your productivity?<br/>Start using Workflow today.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Get Started
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    cta_button_light_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview: Learn More
+    cta_button_light_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+
+simple_justified_on_light:
+  label: Simple Justified on Light background
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Ready to dive in?
+    subtitle:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Start your free trial today.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Get started
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+
+simple_justified_on_light_branded:
+  label: Simple Justified on Light Branded background
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Ready to dive in?
+    subtitle:
+      type: text
+      label: Title
+      description:  CTA Subtitle
+      preview:  Start your free trial today.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Get started
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+
+simple_justified:
+  label: Simple Justified
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Ready to dive in?
+    subtitle:
+      type: text
+      label: Title
+      description:  CTA Subtitle
+      preview:  Start your free trial today.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Get Started
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    cta_button_light_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview: Learn More
+    cta_button_light_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+
+simple_stacked:
+  label: Simple Stacked
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview:  Ready to dive in?
+    subtitle:
+      type: text
+      label: Title
+      description:  CTA Subtitle
+      preview:  Start your free trial today.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Get Started
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    cta_button_light_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview: Learn More
+    cta_button_light_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+
+split_with_image:
+  label: Split CTA with Image on left
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    super_title:
+      type: text
+      label: Super title
+      description:  CTA Super Title
+      preview: Award winning support
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview: We’re here to help
+    sub_text:
+      type: text
+      label: Subtext
+      description:  CTA subtext
+      preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Visit the help center
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    cta_image_url:
+      type: text
+      label: Image URL
+      description:  CTA Image URL
+      preview:  https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&blend=6366F1&sat=-100&blend-mode=multiply
+    cta_image_alt:
+      type: text
+      label: Image Alt Text
+      description: CTA Image Alt Text
+      preview:  Man and two women looking at a computer screen at a desk
+
+brand_panel_with_overlapping_image:
+  label: Brand Panel with Overlapping image
+  description: Display a simple CTA Panel
+  variants:
+    default:
+      label: Default
+      description: Default
+  fields:
+    title:
+      type: text
+      label: Title
+      description:  CTA Title
+      preview: Join our team
+    subtext:
+      type: text
+      label: Subtext
+      description:  CTA subtext
+      preview: Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
+    cta_button_label:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Explore open positions
+    cta_button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    cta_image_url:
+      type: text
+      label: Image URL
+      description:  CTA Image URL
+      preview:  https://images.unsplash.com/photo-1507207611509-ec012433ff52?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=80
+    cta_image_alt:
+      type: text
+      label: Image Alt Text
+      description: CTA Image Alt Text
+      preview:  Two men in chairs behind a fence, talking
