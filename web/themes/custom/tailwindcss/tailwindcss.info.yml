@@ -6,4 +6,12 @@ type: theme
 base theme: stable
 libraries:
   - tailwindcss/global-styling
+components:
+  namespaces:
+    protons: []
+    atoms: ./patterns/01-atoms
+    molecules: ./patterns/02-molecules
+    organisms: ./patterns/03-organisms
+    templates: ./patterns/04-templates
+    pages: ./patterns/05-pages
 
