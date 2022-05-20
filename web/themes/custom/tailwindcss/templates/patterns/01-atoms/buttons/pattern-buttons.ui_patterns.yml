@@ -1,0 +1,93 @@
+primary_button_xs:
+  label:  Primary Button (extra small)
+  description: Primary button, extra small
+  variants:
+    default:
+      label:  Default
+      description:  Extra Small Primary Button
+  fields:
+    button_url:
+      type: text
+      label: Button URL
+      description: Button URL
+      preview: https://www.google.com
+    button_text:
+      type: text
+      label: Button Text
+      description: Button Text
+      preview: Click Me
+primary_button_sm:
+  label:  Primary Button (small)
+  description: Primary button, small
+  variants:
+    default:
+      label:  Default
+      description: Small Primary Button
+  fields:
+    button_url:
+      type: text
+      label: Button URL
+      description: Button URL
+      preview: #
+    button_text:
+      type: text
+      label: Button Text
+      description: Button Text
+      preview: Click Me
+
+primary_button_med:
+  label:  Primary Button (medium)
+  description: Primary button, medium
+  variants:
+    default:
+      label:  Default
+      description:  Medium Primary Button
+  fields:
+    button_url:
+      type: text
+      label: Button URL
+      description: Button URL
+      preview: #
+    button_text:
+      type: text
+      label: Button Text
+      description: Button Text
+      preview: Click Me
+
+primary_button_lg:
+  label:  Primary Button (large)
+  description: Primary button, large
+  variants:
+    default:
+      label:  Default
+      description:  Large Primary Button
+  fields:
+    button_url:
+      type: text
+      label: Button URL
+      description: Button URL
+      preview: #
+    button_text:
+      type: text
+      label: Button Text
+      description: Button Text
+      preview: Click Me
+
+primary_button_xl:
+  label:  Primary Button (extra large)
+  description: Primary button, extra large
+  variants:
+    default:
+      label:  Default
+      description:  Extra Large Primary Button
+  fields:
+    button_url:
+      type: text
+      label: Button URL
+      description: Button URL
+      preview: #
+    button_text:
+      type: text
+      label: Button Text
+      description: Button Text
+      preview: Click Me
