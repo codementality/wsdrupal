@@ -6,5 +6,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    // tw_cta_sections
+    require('@tailwindcss/aspect-ratio')
+  ],
 };
