@@ -86,6 +86,5 @@ module:
 theme:
   claro: 0
   stable: 0
-  gin: 0
   tailwindcss: 0
 profile: minimal
