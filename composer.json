@@ -25,7 +25,6 @@
         "drupal/ctools": "^3.7",
         "drupal/diff": "^1.0",
         "drupal/drimage": "^2.0",
-        "drupal/gin": "^3@beta",
         "drupal/gin_lb": "^1@beta",
         "drupal/gin_login": "^1.2",
         "drupal/gin_toolbar": "^1@beta",

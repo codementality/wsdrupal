@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79d6e3e5efdb49c719498165f1063766",
+    "content-hash": "3cd977b4f02f6e734835d1c1a4f5eff1",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1548,63 +1548,6 @@
                 "source": "https://git.drupalcode.org/project/drimage",
                 "issues": "https://www.drupal.org/project/issues/drimage"
             }
-        },
-        {
-            "name": "drupal/gin",
-            "version": "3.0.0-beta2",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/gin.git",
-                "reference": "8.x-3.0-beta2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/gin-8.x-3.0-beta2.zip",
-                "reference": "8.x-3.0-beta2",
-                "shasum": "5f38fab22d33ec4ec5e696f5bc804d8accb456a2"
-            },
-            "require": {
-                "drupal/core": "^8.9 || ^9 || ^10",
-                "drupal/gin_toolbar": "^1.0@beta"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-3.0-beta2",
-                    "datestamp": "1649710290",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Sascha Eggenberger (saschaeggi)",
-                    "homepage": "https://www.drupal.org/u/saschaeggi",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "For a better Admin and Content Editor Experience.",
-            "homepage": "https://www.drupal.org/project/gin",
-            "support": {
-                "source": "https://git.drupalcode.org/project/gin",
-                "issues": "https://www.drupal.org/project/issues/gin"
-            },
-            "funding": [
-                {
-                    "type": "github",
-                    "url": "https://github.com/sponsors/saschaeggi"
-                },
-                {
-                    "type": "other",
-                    "url": "https://paypal.me/saschaeggi"
-                }
-            ]
         },
         {
             "name": "drupal/gin_lb",
@@ -14245,7 +14188,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "drupal/gin": 10,
         "drupal/gin_lb": 10,
         "drupal/gin_toolbar": 10,
         "drupal/layout_builder_st": 15,
