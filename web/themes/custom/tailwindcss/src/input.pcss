@@ -8,48 +8,73 @@
   }
 }
 
-@layer components {
-  .block,
-  .node {
-    @apply mb-4
-  }
+.block,
+.node {
+  @apply mb-4
+}
 
-  .node__content p,
-  .node__content ul,
-  .node__content ol {
-    @apply mb-4 leading-normal
-  }
+.node__content p,
+.node__content ul,
+.node__content ol {
+  @apply mb-4 leading-normal
+}
 
-  [id$="-local-tasks"] ul {
-    @apply list-disc list-inside
-  }
+[id$="-local-tasks"] ul {
+  @apply list-disc list-inside
+}
 
-  button {
-    @apply inline-flex items-center border font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
-  }
+button {
+  @apply inline-flex items-center border font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
 
-  .button-primary {
-    @apply border-transparent text-white bg-indigo-800 hover:bg-indigo-500 focus:ring-indigo-400 shadow-sm;
-  }
+.button-primary {
+  @apply border-transparent text-white bg-indigo-800 hover:bg-indigo-500 focus:ring-indigo-400 shadow-sm;
+}
 
-  .button-xs {
-    @apply px-2.5 py-1.5 text-xs rounded;
-  }
+.button-secondary {
+  @apply border-transparent text-indigo-800 bg-indigo-100 hover:bg-indigo-500 focus:ring-indigo-400;
+}
 
-  .button-sm {
-    @apply px-3 py-2 text-sm leading-4 rounded-md;
-  }
-  
-  .button-md {
-    @apply px-4 py-2 text-sm rounded-md;
-  }
+.button-tertiary {
+  @apply border-gray-300 shadow-sm text-indigo-700 bg-white hover:bg-gray-100 focus:ring-indigo-500;
+}
 
-  .button-lg {
-    @apply px-4 py-2 text-base rounded-md;
-  }
+.button-xs {
+  @apply px-2.5 py-1.5 text-xs rounded;
+}
 
-  .button-xl {
-    @apply px-6 py-3 text-base rounded-md;
-  }
+.button-sm {
+  @apply px-3 py-2 text-sm leading-4 rounded-md;
+}
 
+.button-md {
+  @apply px-4 py-2 text-sm rounded-md;
+}
+
+.button-lg {
+  @apply px-4 py-2 text-base rounded-md;
+}
+
+.button-xl {
+  @apply px-6 py-3 text-base rounded-md;
+}
+
+.button-round-xs {
+  @apply px-3 py-1.5 text-xs rounded-full;
+}
+
+.button-round-sm {
+  @apply px-3.5 py-2 text-sm leading-4 rounded-full;
+}
+
+.button-round-md {
+  @apply px-4 py-2 text-sm rounded-full;
+}
+
+.button-round-lg {
+  @apply px-5 py-2 text-base rounded-full;
+}
+
+.button-round-xl {
+  @apply px-6 py-3 text-base rounded-full;
 }

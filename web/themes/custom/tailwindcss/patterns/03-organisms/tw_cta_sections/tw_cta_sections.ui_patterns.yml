@@ -16,16 +16,6 @@ brand_panel_with_image:
       label:  Subtext
       description:  CTA Subtext
       preview:  Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Sign up for free
-    cta_button_url:
-      type: text
-      label: CTA URL
-      description: CTA URL
-      preview: #
     cta_image_url:
       type: text
       label: Image URL
@@ -36,6 +26,26 @@ brand_panel_with_image:
       label: Image Alt Text
       description: CTA Image Alt Text
       preview:  App screenshot
+    button_url:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 simple_center_branded:
   label: Simple center branded
@@ -55,16 +65,26 @@ simple_center_branded:
       label:  Subtext
       description:  CTA Subtext
       preview:  Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Sign up for free
-    cta_button_url:
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 simple_centered:
   label: Simple centered
@@ -79,26 +99,46 @@ simple_centered:
       label: Title
       description:  CTA Title
       preview:  Boost your productivity?<br/>Start using Workflow today.
-    cta_button_label:
+    button_url_2:
+      type: text
+      label: CTA URL
+      description: CTA URL
+      preview: #
+    button_text_2:
       type: text
       label: CTA Button Label
       description: CTA Button Label
       preview:  Get Started
-    cta_button_url:
+    button_type_2:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-primary
+    button_size_2:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
-    cta_button_light_label:
+    button_text:
       type: text
       label: CTA Button Label
       description: CTA Button Label
-      preview: Learn More
-    cta_button_light_url:
+      preview:  Sign up for free
+    button_type:
       type: text
-      label: CTA URL
-      description: CTA URL
-      preview: #
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 simple_justified_on_light:
   label: Simple Justified on Light background
@@ -118,16 +158,26 @@ simple_justified_on_light:
       label: Title
       description:  CTA Title
       preview:  Start your free trial today.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Get started
-    cta_button_url:
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 simple_justified_on_light_branded:
   label: Simple Justified on Light Branded background
@@ -147,16 +197,26 @@ simple_justified_on_light_branded:
       label: Title
       description:  CTA Subtitle
       preview:  Start your free trial today.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Get started
-    cta_button_url:
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 simple_justified:
   label: Simple Justified
@@ -176,26 +236,46 @@ simple_justified:
       label: Title
       description:  CTA Subtitle
       preview:  Start your free trial today.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Get Started
-    cta_button_url:
+    button_url_2:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
-    cta_button_light_label:
+    button_text_2:
       type: text
       label: CTA Button Label
       description: CTA Button Label
-      preview: Learn More
-    cta_button_light_url:
+      preview:  Sign up for free
+    button_type_2:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size_2:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 simple_stacked:
   label: Simple Stacked
@@ -215,26 +295,46 @@ simple_stacked:
       label: Title
       description:  CTA Subtitle
       preview:  Start your free trial today.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Get Started
-    cta_button_url:
+    button_url_2:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
-    cta_button_light_label:
+    button_text_2:
       type: text
       label: CTA Button Label
       description: CTA Button Label
-      preview: Learn More
-    cta_button_light_url:
+      preview:  Sign up for free
+    button_type_2:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size_2:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
 
 split_with_image:
   label: Split CTA with Image on left
@@ -259,16 +359,26 @@ split_with_image:
       label: Subtext
       description:  CTA subtext
       preview: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Visit the help center
-    cta_button_url:
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
     cta_image_url:
       type: text
       label: Image URL
@@ -298,16 +408,26 @@ brand_panel_with_overlapping_image:
       label: Subtext
       description:  CTA subtext
       preview: Varius facilisi mauris sed sit. Non sed et duis dui leo, vulputate id malesuada non. Cras aliquet purus dui laoreet diam sed lacus, fames.
-    cta_button_label:
-      type: text
-      label: CTA Button Label
-      description: CTA Button Label
-      preview:  Explore open positions
-    cta_button_url:
+    button_url:
       type: text
       label: CTA URL
       description: CTA URL
       preview: #
+    button_text:
+      type: text
+      label: CTA Button Label
+      description: CTA Button Label
+      preview:  Sign up for free
+    button_type:
+      type: text
+      label: Button Type
+      description:  Button Type (button-primary, button-secondary, button-tertiary)
+      preview: button-tertiary
+    button_size:
+      type:  text
+      label: Button Size
+      description: Button Size (button-xs, button-sm, button-md, button-lg, button-xl)
+      preview: button-xl
     cta_image_url:
       type: text
       label: Image URL

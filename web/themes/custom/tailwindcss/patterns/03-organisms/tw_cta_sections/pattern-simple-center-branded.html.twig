@@ -4,7 +4,7 @@
     <h2 class="text-3xl font-extrabold text-white sm:text-4xl">
       <span class="block">{{ title }}</span>
     </h2>
-    <p class="mt-4 text-lg leading-6 text-indigo-200">{{ subtext }}</p>
-    <button onclick="location.href='{{ cta_button_url }}';" class="mt-8 w-full inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-indigo-50 sm:w-auto">{{ cta_button_label }}</button>
+    <p class="mt-4 text-lg leading-6 text-indigo-200">{{ subtext }}</p><br/>
+    {{ pattern('button', {button_url, button_size, button_type, button_text}) }}
   </div>
 </div>
