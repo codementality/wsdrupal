@@ -25,7 +25,6 @@
         "drupal/ctools": "^3.7",
         "drupal/diff": "^1.0",
         "drupal/drimage": "^2.0",
-        "drupal/gin_login": "^1.2",
         "drupal/layout_builder_browser": "^1.4",
         "drupal/layout_builder_component_attributes": "^2.0",
         "drupal/layout_builder_modal": "^1.1",
