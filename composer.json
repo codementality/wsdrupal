@@ -38,6 +38,7 @@
         "drupal/pathauto": "^1.10",
         "drupal/rabbit_hole": "^1@beta",
         "drupal/section_library_reusable": "^1@beta",
+        "drupal/simplelogin": "^6.0",
         "drupal/symfony_mailer": "^1@alpha",
         "drupal/twig_tweak": "^3.1",
         "drupal/ui_patterns_extends": "^1@beta",
